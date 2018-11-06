@@ -1,11 +1,8 @@
 {
-    "name": "bolt/bolt-extension-starter",
+    "name": "evalue8/loginbackgroundchanger",
     "description": "A description about your extension should go here.",
     "type": "bolt-extension",
-    "keywords": [
-        "foo",
-        "bar"
-    ],
+    "keywords": ["login", "admin", "theme", "background", "image"],
     "require": {
         "bolt/bolt": "^3.0"
     },
@@ -15,25 +12,30 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com"
+            "name": "Ricardo van de Rakt",
+            "email": "ricardo@evalue8.nl",
+			"homepage": "http://evalue8.nl"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\YourName\\ExtensionName\\": "src"
+            "Bolt\\Extension\\evalue8\\loginbackgroundchanger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bolt\\Extension\\YourName\\ExtensionName\\Tests\\": "tests",
+            "Bolt\\Extension\\evalue8\\loginbackgroundchanger\\Tests\\": "tests",
             "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
     },
     "extra": {
+		"bolt-icon": "loginBackgroundChanger.png",
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\YourName\\ExtensionName\\ExtensionNameExtension"
-    }
+        "bolt-class": "Bolt\\Extension\\evalue8\\loginbackgroundchanger\\loginbackgroundchangerExtension",
+		"bolt-screenshots": [
+            "/assets/screenshot1.png"
+        ]
+	}
 }

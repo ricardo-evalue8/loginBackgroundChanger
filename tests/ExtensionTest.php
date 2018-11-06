@@ -1,27 +1,27 @@
 <?php
 
-namespace Bolt\Extension\YourName\ExtensionName\Tests;
+namespace Bolt\Extension\evalue8\loginbackgroundchanger\Tests;
 
 use Bolt\Tests\BoltUnitTest;
-use Bolt\Extension\YourName\ExtensionName\ExtensionNameExtension;
+use Bolt\Extension\evalue8\loginbackgroundchanger\loginbackgroundchangerExtension;
 
 /**
- * ExtensionName testing class.
+ * loginbackgroundchanger testing class.
  *
  * @author Your Name <you@example.com>
  */
 class ExtensionTest extends BoltUnitTest
 {
     /**
-     * Ensure that the ExtensionName extension loads correctly.
+     * Ensure that the loginbackgroundchanger extension loads correctly.
      */
     public function testExtensionBasics()
     {
         $app = $this->getApp(false);
-        $extension = new ExtensionNameExtension($app);
+        $extension = new loginbackgroundchangerExtension($app);
 
         $name = $extension->getName();
-        $this->assertSame($name, 'ExtensionName');
+        $this->assertSame($name, 'loginbackgroundchanger');
         $this->assertInstanceOf('\Bolt\Extension\ExtensionInterface', $extension);
     }
 
