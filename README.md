@@ -1,10 +1,10 @@
 # LoginBackgroundChanger
 This extension will change the login background image.
-![Bolt login screen with ocean background](/assets/screenshot1.png)
+![Bolt login screen with ocean background](https://github.com/ricardo-evalue8/loginBackgroundChanger/blob/master/assets/screenshot1.png?raw=true)
 
 Extension version
 ```
-Alpha 1.0.0
+v1.0.0 - stable
 ```
 
 ## Setup
@@ -24,12 +24,13 @@ image_url: https://source.unsplash.com/random/1600x900
 ### Local background image
 To use your own image just change the link:
 ```
-image_url: https://source.unsplash.com/random/1600x900
+image_url: local_url
 ```
 
 
 ## Changelog
 
+* v1.0.0 (stable) - Fixed some little bugs in the config
 * alpha v1.0.0 - random change login background image
 
 ## TODO

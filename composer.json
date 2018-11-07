@@ -3,7 +3,6 @@
     "description": "This extension will change the background of the login page.",
     "type": "bolt-extension",
 	"version": "1.0.0",
-
     "keywords": ["login", "admin", "theme", "background", "image"],
     "require": {
         "bolt/bolt": "^3.0"
