@@ -30,7 +30,7 @@ image_url: local_url
 
 ## Changelog
 
-* v1.0.0 (stable) - Fixed some little bugs in the config
+* v1.0.0 - Fixed some little bugs in the config
 * alpha v1.0.0 - random change login background image
 
 ## TODO
